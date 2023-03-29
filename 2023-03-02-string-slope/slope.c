@@ -1,0 +1,1 @@
+main(c,v)char**v;{for(v++;1[*v];)c-=**v-*++*v;printf("%d",c-2);}

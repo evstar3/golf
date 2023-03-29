@@ -1,0 +1,1 @@
+i,z;c(int*a,int*b){return*a-*b;}main(s){int n[1<<10];for(;scanf(s="%d\n",n+z)+1;qsort(n,++z,4,c));for(;i<z;)printf(s,n[i++]);}

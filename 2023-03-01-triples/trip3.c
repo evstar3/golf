@@ -1,0 +1,1 @@
+r,s,t;main(){for(;s<M;)for(t=++s;(r=sqrt(2*s*++t))<M;)r-sqrt(2*s*t)||(r+=s+t)>M||printf("%d %d %d\n",r-t,r-s,r);}

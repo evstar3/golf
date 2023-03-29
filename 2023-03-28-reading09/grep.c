@@ -1,0 +1,1 @@
+u(x){puts("usage");exit(x);}char*s;f,i;main(c,v)char**v;{for(;++i<c;s=**v-45?*v:u(1[*v]-'h'))++v;int b[1<<9];for(s||u(1);gets(b);)f=s&&!strstr(b,s)?f:puts(b);return!f;}
