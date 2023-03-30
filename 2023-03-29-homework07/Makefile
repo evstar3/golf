@@ -26,7 +26,7 @@ test-str: str-static str-dynamic
 
 .PHONY: clean
 clean:
-	-rm -f $(TARGETS) *.o
+	-rm -f $(TARGETS) test_* *.o
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c -o $@ $^
