@@ -1,6 +1,6 @@
-#include "str.h"
-#include <ctype.h>
-#include <string.h>
+#include"str.h"
+#include<ctype.h>
+#include<string.h>
 #define V void
 #define U toupper(*s)
 #define C char
