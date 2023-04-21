@@ -1,4 +1,4 @@
-#define S s[i]^=s[H-i-1]
+#define S s[i]^=s[H+~i]
 i,o,L,H;f(char*s){L=strlen(s);H=L/2;for(o=0;o<L;s+=o+=H+L%2)for(i=H/2;i--;)S^=S;}
 
 #include <stdio.h>
